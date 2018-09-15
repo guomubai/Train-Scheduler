@@ -33,8 +33,7 @@ $("#addTrainBtn").on("click", function () {
 	// push it into Firebase database
 	trainData.ref().push(newTrain);
 
-	// alert("train added!") //check that you put it in the database -- commented out
-
+	
 	$("#trainNameInput").val("");
 	$("#destinationInput").val("");
 	$("#firstTrainInput").val("");
