@@ -1,0 +1,8 @@
+.display-4, .lead {
+	font-weight: bold;
+	color: white;
+}
+
+.jumbotron {
+	background-color: blue;
+}
